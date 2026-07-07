@@ -1,0 +1,33 @@
+{
+  "name": "freee-transaction-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "node --env-file=.env.local scripts/run-local.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikuShimoida/freee-transaction-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RikuShimoida/freee-transaction-agent/issues"
+  },
+  "homepage": "https://github.com/RikuShimoida/freee-transaction-agent#readme",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.109.1",
+    "@upstash/redis": "^1.38.0",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "zod": "^4.4.3"
+  }
+}
